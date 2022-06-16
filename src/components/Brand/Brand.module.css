@@ -1,0 +1,72 @@
+.brand_container{
+    margin-top: 18px;
+    margin-bottom: 18px;
+    border: 0.5px solid rgb(228, 228, 228);
+    border-radius: 6px;
+    padding: 18px!important;
+}
+.logo_container{
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    margin-bottom: 20px;
+}
+.logo_brand{
+    width: 24px;
+    height: 24px;
+}
+.logo_title{
+    color:#242424;
+    font-size:20px;
+    line-height:28px;
+    margin:0px 0px 0px 8px;
+    text-transform:capitalize;
+}
+.slider_image{
+    width: 100%;
+    height: auto;
+    border-radius: 20px;
+    padding: 0 8px 0 8px;
+}
+.slider_image:last-child{
+    padding-right: 0;
+}
+
+.slider_brand{
+    margin-top: 20px;
+}
+.brand_list_item{
+    display: inline-block;
+    border: 0.5px solid rgb(228, 228, 228);
+    border-radius: 6px;
+    position: relative;
+}
+.brand_list_item:hover{
+    opacity: 0.9;
+}
+.brand_list_desc{
+    position: absolute;
+    bottom: 15px;
+    width: 100%;
+    display: block;
+    text-align: center;
+    text-transform: capitalize;
+    font-size: 13px;
+}
+/* Ipad Pro */
+@media (max-width: 64em) {}
+/* PC */
+@media (min-width: 64em) {}
+/* TABLET & MOBILE */
+@media (max-width: 63.9375em){
+    .slider_image{
+        min-height: 220px;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+}
+/* TABLET */
+@media (min-width: 46.25em) and (max-width: 63.9375em) {}
+/* MOBILE */
+@media (max-width: 46.25em) {}

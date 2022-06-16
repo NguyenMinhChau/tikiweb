@@ -1,0 +1,39 @@
+.splide__track_small{
+    width: 100%;
+}
+.slider_image{
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.slider_lage,
+.slider_image,
+.splide__track_small,
+.slider_image_small{
+    border-radius: 5px;
+    width: 100%;
+}
+.slider_image_small{
+    min-height: 286px;
+    object-fit: cover;
+}
+/* Ipad Pro */
+@media (max-width: 64em) {}
+/* PC */
+@media (min-width: 64em) {}
+/* TABLET & MOBILE */
+@media (max-width: 63.9375em){
+    .slider_image{
+        min-height: 220px;
+    }
+}
+/* TABLET */
+@media (min-width: 46.25em) and (max-width: 63.9375em) {
+    .slider_image{
+        min-height: 320px;
+    }
+}
+/* MOBILE */
+@media (max-width: 46.25em) {}
